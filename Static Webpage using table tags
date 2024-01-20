@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A static WebPage using HTML table tags</title>
+</head>
+<body>
+    <table border="1" cellpadding="4">
+        <caption align="top">MY TIME TABLE</caption>
+        <tr>
+            <th></th>
+            <th >8.45-9.45</th>
+            <th >9.45-10.45</th>
+            <th >10.45-11.45</th>
+            <th >11.45-12.45</th>
+            <th >12.45-1.45</th>
+            <th >1.45-2.45</th>
+            <th >2.45-3.45</th>
+            <th >3.45-4.45</th>
+            <th >4.45-5.45</th>
+        </tr>
+        <tr>
+            <th><center> Monday</th>
+            <td colspan="2"><center> Software Engineering Lab</td>
+            <td><center> Machine Learning</td>
+            <td></td>
+            <td rowspan="7"><center> Lunch</td>
+            <td><center>  Software Engineering</td>
+            <td><center> MP&MC</td>
+            <td colspan="2"><center> Machine Learning Lab</td>
+        </tr>
+        <tr>
+            <th><center> Tuesday</th>
+            <td><center> Software Engineering</td>
+            <td><center> MP&MC</td>
+            <td></td>
+            <td><center> Compiler Design</td>
+            <td><center> NLP</td>
+            <td></td>
+            <td><center> Compiler Design</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th><center> Wednesday</th>
+            <td><center> NLP</td>
+            <td></td>
+            <td colspan="2"><center> PPC-iv</td>
+            <td><center> Machine Learning</td>
+            <td></td>
+            <td colspan="2"><center> NLP Lab</td>
+        </tr>
+        <tr>
+            <th><center> Thursday</th>
+            <td><center> Machine Learning</td>
+            <td></td>
+            <td><center> Software Engineering</td>
+            <td><center> MP&MC</td>
+            <td colspan="4"></td>
+        </tr>
+        <th><center> Friday</th>
+        <td></td>
+        <td><center> Compiler Design</td>
+        <td><center>NLP</td>
+        <td></td>
+        <td colspan="2"></td>
+        <td colspan="2"><center> MP&MC Lab</td>
+            <Tr>
+                <Th>Saturday</Th>
+                <td><center> Compiler Design Tutorial</td>
+                    <td colspan="3"></td>
+                    <td colspan="4"></td>
+            </Tr>
+    </table>
+</body>
+</html>
